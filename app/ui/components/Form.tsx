@@ -14,7 +14,7 @@ export default function Form() {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        name: form.name,
+        name: form.name.valueOf,
         mail: form.mail.value,
         phone: form.phone.value,
         message: form.message.value,

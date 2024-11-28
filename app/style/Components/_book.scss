@@ -1,8 +1,8 @@
 .book {
-  width: 100%;
+  width: calc(100% - 30px);
   max-width: 400px;
   height: 550px;
-  min-width: 280px;
+  min-width: 265px;
   position: relative;
   perspective: 1500px;
   color: rgba(39, 15, 8, 0.922);
@@ -71,7 +71,7 @@
         row-gap: 30px;
         font-size: 20px;
         span:nth-child(2) {
-          margin-right: 30px;
+          margin-right: 0px;
           text-align: right;
         }
       }

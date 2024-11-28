@@ -25,7 +25,7 @@ export default function Book() {
             actualPage={page}
           >
             <h3>Corps et Ame</h3>
-            <Image src="/assets/lotus.png" width={300} height={300} alt="" />
+            <Image src="/assets/lotus.webp" width={300} height={300} alt="" />
           </Page>
 
           {adviceList.map((advice, index) => (
