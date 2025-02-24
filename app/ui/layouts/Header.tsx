@@ -37,45 +37,10 @@ export default function Header() {
             <Image src="/assets/arrow.svg" width={20} height={20} alt="" />
           </div>
         </Link>
-<<<<<<< HEAD
-        <Link
-          onClick={() => {
-            setIsOpen(false);
-          }}
-          href={"/"}
-        >
-          Accueil
-        </Link>
-        <Link
-          onClick={() => {
-            setIsOpen(false);
-          }}
-          href={"/#presentation"}
-        >
-          Qui je suis
-        </Link>
-        <Link
-          onClick={() => {
-            setIsOpen(false);
-          }}
-          href={"/#benefits"}
-        >
-          Mes préstations
-        </Link>
-        <Link
-          onClick={() => {
-            setIsOpen(false);
-          }}
-          href={"/recueil-des-avis"}
-        >
-          Livre d&apos;Or
-        </Link>
-=======
         <Link href={"/"}>Accueil</Link>
         <Link href={"/#presentation"}>Qui je suis</Link>{" "}
         <Link href={"/#benefits"}>Mes préstations</Link>
         <Link href={"/recueil-des-avis"}>Livre d&apos;Or</Link>
->>>>>>> 96c4bb8 (remplacement des apostrophes + Prix)
       </nav>
       <Link className="mainButton" href={"/contact"}>
         Contactez moi

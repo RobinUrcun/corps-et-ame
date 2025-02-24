@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 "use client";
->>>>>>> 96c4bb8 (remplacement des apostrophes + Prix)
 import React from "react";
 
 interface PageProps {
