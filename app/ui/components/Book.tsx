@@ -47,11 +47,7 @@ export default function Book() {
             actualPage={page}
           >
             <Image
-<<<<<<< HEAD
-              src="/assets/bookCover3.pnj"
-=======
               src="/assets/bookCover3.png"
->>>>>>> 96c4bb8 (remplacement des apostrophes + Prix)
               fill={true}
               alt=""
               priority={true}

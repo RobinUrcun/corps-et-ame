@@ -32,8 +32,13 @@ export default function BenefitsSection() {
                 <span className="bold">
                   Tarif{" "}
                   {benefit.title === "Reïki Usui (enfants) : "
+<<<<<<< HEAD
                     ? "( jusqu'a 12 ans )"
                     : null}{" "}
+=======
+                    ? "( jusqu'à 12 ans ) "
+                    : null}
+>>>>>>> 0f7c2d5 (add price)
                   :
                 </span>{" "}
                 {benefit.price.toLocaleString("fr-FR", {
