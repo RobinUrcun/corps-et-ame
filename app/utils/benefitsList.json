@@ -4,14 +4,16 @@
     "text": "En cas de réactivités anormales : phobies de lieux, d'animaux, de personnes, des bruits de bouche, peur de l'abandon, timidité, jalousie, angoisse, vertiges, procrastinations, peur de réussir, de parler public... Cette (ces) séances permet(tent) une libération de tout ce qui freine ou limite votre liberté d'action.",
     "imgName": "hyper_activité.jpg",
     "imgWidth": 200,
-    "imgHeight": 180
+    "imgHeight": 180,
+    "price": 80
   },
   {
     "title": "Libération des mémoires cellulaires (transgénérationnel) : ",
     "text": "Tel un tatouage, nous portons tous en nous des mémoires traumatiques inconscientes qui ne nous appartiennent pas et qui nous empêchent d'être, tout simplement. Retrouvez votre chemin de vie et soyez votre véritable 'moi'",
     "imgName": "memoires_cellulaires.png",
     "imgWidth": 200,
-    "imgHeight": 180
+    "imgHeight": 180,
+    "price": 80
   },
 
   {
@@ -19,13 +21,15 @@
     "text": "Devenir conscient de ce que tu veux vraiment être - Découvrir la croyance que tu entretiens. Devenir conscient  que tu n'acceptes pas ce que tu es à ce moment-là avant de devenir ce que tu veux vraiment être.",
     "imgName": "blocages.png",
     "imgWidth": 200,
-    "imgHeight": 180
+    "imgHeight": 180,
+    "price": 80
   },
   {
     "title": "Reïki Usui (enfants) : ",
     "text": "Les enfants sont tous traversés par des blocages énergétiques et des déséquilibres qui freinent leur épanouissement et leur bien-être (sommeil, agitations, colères inapropriées...). Grâce au Reiki Usui,libérez les tensions, apaisez l’esprit et retrouvez l’harmonie intérieure pour qu'ils soient pleinement eux-mêmes.",
     "imgName": "reiki.jpg",
     "imgWidth": 200,
-    "imgHeight": 180
+    "imgHeight": 180,
+    "price": 50
   }
 ]

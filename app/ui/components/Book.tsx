@@ -25,7 +25,11 @@ export default function Book() {
             actualPage={page}
           >
             <h3>Corps et Ame</h3>
+<<<<<<< HEAD
             <Image src="/assets/lotus.webp" width={300} height={300} alt="" />
+=======
+            <Image src="/assets/lotusP2.png" width={300} height={300} alt="" />
+>>>>>>> 96c4bb8 (remplacement des apostrophes + Prix)
           </Page>
 
           {adviceList.map((advice, index) => (
@@ -43,7 +47,11 @@ export default function Book() {
             actualPage={page}
           >
             <Image
+<<<<<<< HEAD
               src="/assets/bookCover3.pnj"
+=======
+              src="/assets/bookCover3.png"
+>>>>>>> 96c4bb8 (remplacement des apostrophes + Prix)
               fill={true}
               alt=""
               priority={true}

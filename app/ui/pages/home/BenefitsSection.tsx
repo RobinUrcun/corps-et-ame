@@ -19,7 +19,7 @@ export default function BenefitsSection() {
                 src={`/assets/pictures/${benefit.imgName}`}
                 width={benefit.imgWidth}
                 height={benefit.imgHeight}
-                alt=""
+                alt={benefit.title}
               />
             </div>
             <div className="rankWrapper">
@@ -28,6 +28,20 @@ export default function BenefitsSection() {
             <div className="descriptionWrapper">
               <h3>{benefit.title}</h3>
               <p>{benefit.text}</p>
+              <p className="price">
+                <span className="bold">
+                  Tarif{" "}
+                  {benefit.title === "Reïki Usui (enfants) : "
+                    ? "( jusqu'a 12 ans )"
+                    : null}{" "}
+                  :
+                </span>{" "}
+                {benefit.price.toLocaleString("fr-FR", {
+                  style: "currency",
+                  currency: "EUR",
+                  minimumFractionDigits: 2,
+                })}
+              </p>
             </div>
           </div>
         ))}

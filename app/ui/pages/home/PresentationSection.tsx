@@ -17,7 +17,7 @@ export default function PresentationSection() {
               des croyances, à des souvenirs enfouis ou au transgenerationnel,
               (chocs émotionnels non exprimés) qui ne nous appartiennent pas.
               Ils impactent notre corps physique émotionnel et mental mais
-              seraient aussi à l'origine de schémas répétitifs.
+              seraient aussi à l&apos;origine de schémas répétitifs.
             </p>
             <div className="qualificationsWrapper">
               <h4>Qualification :</h4>

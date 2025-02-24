@@ -37,6 +37,7 @@ export default function Header() {
             <Image src="/assets/arrow.svg" width={20} height={20} alt="" />
           </div>
         </Link>
+<<<<<<< HEAD
         <Link
           onClick={() => {
             setIsOpen(false);
@@ -69,6 +70,12 @@ export default function Header() {
         >
           Livre d&apos;Or
         </Link>
+=======
+        <Link href={"/"}>Accueil</Link>
+        <Link href={"/#presentation"}>Qui je suis</Link>{" "}
+        <Link href={"/#benefits"}>Mes préstations</Link>
+        <Link href={"/recueil-des-avis"}>Livre d&apos;Or</Link>
+>>>>>>> 96c4bb8 (remplacement des apostrophes + Prix)
       </nav>
       <Link className="mainButton" href={"/contact"}>
         Contactez moi

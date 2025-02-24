@@ -12,7 +12,7 @@ export default function Footer() {
         height={54}
         alt="logo"
       />
-      <p className="footerTitle">Faisons naître l’extraordinaire!</p>
+      <p className="footerTitle">Faisons naître l&apos;extraordinaire!</p>
       <Link href="/contact" className="mainButton">
         Contactez moi
         <div className="arrowWrapper">
